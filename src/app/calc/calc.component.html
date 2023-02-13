@@ -1,0 +1,17 @@
+<div>
+<label for="start">Start Value:</label>
+<input id="start" [(ngModel)]="calc.start" placeholder="start">
+</div>
+<div>
+<label for="amount">Amount:</label>
+<input id="amount" [(ngModel)]="calc.amount" placeholder="amount">
+</div>
+<div>
+<mat-radio-group id="operator" aria-label="Select an option">
+  <mat-radio-button value="+">Add</mat-radio-button>
+  <mat-radio-button value="-">Subtract</mat-radio-button>
+</mat-radio-group>
+</div>
+<div>
+<input button type='Submit'/>
+</div>
